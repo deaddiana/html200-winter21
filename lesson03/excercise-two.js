@@ -1,7 +1,7 @@
-const sentence = 'I have a cat named Mango';
+const sentence = 'I have a cat named Mango.';
 
-const sentenceArr = sentence.split();
+const arr = sentence.split(' ');
 
-console.log(sentenceArr);
+console.log(arr);
 
-console.log(sentenceArr[2]);
+console.log(arr[2]);
